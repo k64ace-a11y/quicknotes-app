@@ -1,0 +1,23 @@
+# QuickNotes
+
+QuickNotes is a small browser-based note-taking app built with vanilla HTML, CSS and JavaScript. It lets users add short notes, assign each note to a category, search through saved notes, delete individual notes, and keep everything saved in the browser using `localStorage`. The app is responsive, so the form and note cards work well on both desktop and mobile screens.
+
+## Features
+
+- Add notes with a category: Personal, Work or Study
+- Validate notes: empty notes and notes over 200 characters show an error
+- Display notes as cards with category colour, date and time
+- Delete individual notes
+- Search notes by text, case-insensitive
+- Show "No notes match your search." when search returns nothing
+- Count message for zero, one or many notes
+- Save and load notes with `localStorage`
+- Responsive layout using Flexbox and a mobile media query
+- Bonus: Clear all notes with a confirmation prompt
+
+## How to run the project locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/quicknotes-app.git
